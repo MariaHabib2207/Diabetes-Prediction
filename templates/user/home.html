@@ -1,0 +1,42 @@
+<!Doctype html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+   <div class="head" >
+        </u><h1 style="color:cadetblue; text-align: center;
+    ">Heart Prediction</h1></u>
+    </div>
+    <body>
+
+<div style="align:center; background:azure">
+    <form  action="{% url 'result' %}"  style="margin-left:45%; margin-right: 25%; ">
+
+    <div><label> Age </label> </div>  <div> <input type="text" required name="age"> <br><br></div>
+    <div>  <label> Sex  </label>  </div>    <input type="text" required name="sex" ><br><br>
+    <div><label>  Cp </label></div>  <input type="text" required name="cp" ><br><br>
+    <div> <label>  trestbps</label> </div> <input type="text" required name="trestbps" ><br><br>
+    <div> <label>Chol   </label> </div>      <input type="text" required name="chol" ><br><br>
+    <div> <label>  fbs </label> </div>          <input type="text" required name="fbs"><br><br>
+    <div><label>  restecg  </label>  </div>        <input type="text" required name="restecg" ><br><br>
+    <div><label>    thalach   </label>  </div>    <input type="text" required name="thalach"><br><br>
+      <div><label>    exang  </label>  </div>    <input type="text" required name="exang"><br><br>
+          <div><label>    oldpeak  </label>  </div>    <input type="text" required name="oldpeak"><br><br>
+            <div><label>   slope   </label>  </div>    <input type="text" required name="slope"><br><br>
+          <div><label>    ca  </label>  </div>    <input type="text" required name="ca"><br><br>
+            <div><label>    thal   </label>  </div>    <input type="text" required name="thal"><br><br>
+
+        <input type="submit" name="" value="submit" style="background-color:cadetblue ; color:white; font-style:bold; font-size:18px;">
+    </form>
+    </div>
+</body>
+</head>
+</html>
+<style>
+    label
+    {
+    color:cadetblue;
+    }
+
+
+</style>
